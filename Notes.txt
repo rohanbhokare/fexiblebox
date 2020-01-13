@@ -92,3 +92,9 @@ Q. align-items:
 align-self is a property which should be given to flex-items
 
 align-self: flex-start
+
+
+
+
+https://www.cssmatic.com/box-shadow
+https://necolas.github.io/normalize.css/8.0.0/normalize.css
