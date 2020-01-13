@@ -1,0 +1,94 @@
+The Flexible Box Module is i.e. Flexbox, was designed as a one-dimensional layout model, and as a method that could offer spae distrubution between items in an interface
+
+Is a replacement for float and also display: table; & display:table-cell;
+
+Specially designed for building web layout
+
+
+SOme Important Keywords :: Flex Container :: Flex items :: Flex Direction :: Alignment
+
+Flex Container 
+_______________
+   The Element where you want to use flexbox must be wrapped in another HTML element that's called the Flex Container
+
+Once you set a COntainer, you can set some css properites that are specific to flexbox Containers
+   You can set as many flex container as your layout needs!
+
+
+Flex items
+___________
+The flex items are the child elements of your flex Containers
+
+There're some CSS properites that are specific for flex items too
+
+You can have as many items as your layout needs
+
+
+Flex Direction
+___________
+
+Flexbox is one-dimensional, once you set a direction, FLex items will be displayed in a flexible way inside the container
+In your CSS you use the flex-direction: property
+
+4 different values can be passed: row, column, row-reverse & column-reverse
+
+
+Flex Direction - row
+
+
+
+Flex alignement
+
+Flexbox is specially diesigned for building web layouts
+Replaces the float property and also the display: table; or table-cell property
+
+You align the items by adding the property justify-content in the flexbox container in you css
+
+Align to the left
+
+
+
+
+Q. Describe brief about display:flex and display:inline-flex;
+
+Q. flex-direction: column | column-reverse | row | row-reverse
+
+Q. what re flex-wrap: nowrap | wrap | wrap-reverse
+
+Q.  flex-flow: row nowrap;
+ (Note that felx-flow is combination of flex-direction and flex-wrap)
+
+
+Q. Properties can be apply to flex-item -----> order, 
+
+
+
+
+Q. example flex-grow flex-shrink.
+if we given flex-grow:1 to all flex-item, then parent flex-container's width is divided into all flex-item equally.
+
+
+Q. flex-basis: 600px, flex-grow: 0, flex-shrink: 0
+for above above short hand operator is 
+flex: 0 0 600px
+
+
+Q. justify-content:
+        flex-start
+        flex-end
+        center
+        space-around
+        space-between
+
+
+Q. align-items:
+        stretch
+        flex-start
+        flex-end
+        baseline
+        center
+
+
+align-self is a property which should be given to flex-items
+
+align-self: flex-start
