@@ -56,17 +56,22 @@ Q. flex-direction: column | column-reverse | row | row-reverse
 Q. what re flex-wrap: nowrap | wrap | wrap-reverse
 
 Q.  flex-flow: row nowrap;
- (Note that felx-flow is combination of flex-direction and flex-wrap)
+ (Note that flex-flow is combination of flex-direction and flex-wrap)
+ flex-flow: <value of flex-direction> <value of flex-wrap>;
 
 
-Q. Properties can be apply to flex-item -----> order, 
+Q. Properties can be apply to flex-item -----> order, flex-grow, flex-shrink, align-self
 
 
 
 
 Q. example flex-grow flex-shrink.
 if we given flex-grow:1 to all flex-item, then parent flex-container's width is divided into all flex-item equally.
-
+NOTE:
+        when we display flex then by default flext-items will take size they need.
+        If suppose we have to make element of fixed width then we need flex-grow 
+        When we give flex-grow:1 (to flex-items) then parent flex-container's width is divided into all flex-item equally. 
+        i.e. flex-grow:1 means grow in the factor of 1
 
 Q. flex-basis: 600px, flex-grow: 0, flex-shrink: 0
 for above above short hand operator is 
